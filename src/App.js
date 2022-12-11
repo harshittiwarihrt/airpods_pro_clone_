@@ -1,11 +1,11 @@
-
 import './App.css';
+import Hero from './components/hero/Hero'
 
 
 function App() {
   return (
     <div className="App">
-      Airpods clone ready to go
+      <Hero/>
     </div>
   );
 }
