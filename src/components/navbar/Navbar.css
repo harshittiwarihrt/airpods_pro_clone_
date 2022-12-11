@@ -1,0 +1,42 @@
+.navbarGrandPar{
+    background: black;
+    width: 100vw;
+}
+
+.navbarPar{
+    height: 44px;
+    margin-left: -2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.navbarList{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.navbarPar li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: 'Regular';
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Regular';
+    list-style: none;
+    margin-top: 20px;
+}
+
+.Appleicon{
+    margin-top: -2%;
+    margin-left: 20%;
+}
+
+.searchIcon{
+    margin-top: -2%;
+    margin-right: 20%;
+}
