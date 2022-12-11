@@ -1,0 +1,98 @@
+/* .h2chiptrial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+} */
+
+.h2chip{
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: relative;
+    height: 100vh;
+    width: 99vw;
+    background-color: black;
+    color: white;
+}
+
+.airpodsDesc{
+    position: absolute;
+    left:70px;
+    top:100px;
+}
+
+.airpodsDesc2{
+    position: absolute;
+    left:70px;
+    top:120px;
+}
+
+.airpodsDesc3{
+    position: absolute;
+    left:70px;
+    top:140px;
+}
+
+.fopairs{
+    color: white;
+}
+
+.acSeal{
+    color: #00FF41;
+}
+
+.commonDesc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Regular';
+}
+
+.h2chip div{
+    margin: 0 1.5%;
+}
+
+.h2chip div:nth-child(4){
+    margin-top: 10%;
+    height: 423px;
+    width: 259px;
+}
+
+.h2chip div:nth-child(5){
+    height: 219px;
+    width: 120px;
+}
+.h2chip div:nth-child(6){
+    height: 193px;
+    width: 122px;
+}
+.h2chip div:nth-child(7){
+    height: 175px;
+    width: 122px;
+}
+.h2chip div:nth-child(8){
+    height: 170px;
+    width: 107px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.h2chip div p{
+    color: #00E73B;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Regular';
+    margin-top: 20%;
+}
+
