@@ -1,0 +1,57 @@
+.heroDivPar{
+    height: 400vh;
+    width: 100vw;
+    background: black;
+}
+
+.heroDiv{
+    width: 100%;
+    top:0;
+    position: sticky;
+}
+
+.heroDiv img{
+    margin-top: 4%;
+}
+
+.heroDemoPar{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    margin-top: 6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 8rem;
+    font-weight: 600;
+    font-family: 'Regular';
+    gap: 20px;
+}
+
+.heroDemoPar .heroTitle{
+    width:  150%;
+    position: absolute;
+    top:50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    margin-top: -25%;
+    position: absolute;
+    color: white;
+    font-size: 7rem;
+    font-weight: 600;
+    font-family: 'Regular';
+}
+
+.heroDemoPar p{
+    font-family: 'Regular';
+    font-size: 1.3rem;
+}
+
+.iconDemo{
+    font-family: 'Regular';
+    position: relative;
+    top:12%;
+    margin-left: 5px;
+}
