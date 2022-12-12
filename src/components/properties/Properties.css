@@ -1,0 +1,62 @@
+.properPar{
+    width: 101vw;
+    padding: 100px 0;
+    background: black;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.propDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: -10%;
+    color: white;
+
+}
+
+.propDivChild1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    color: white; 
+}
+
+.acSealBig{
+    margin-right: -15px;
+    line-height: 110px;
+    font-size: 120px;
+}
+
+.fopairsBig{
+    line-height: 80px;
+    font-size: 80px;
+}
+
+.propDivChild1 p{
+    margin: 0 0;
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 21px;
+    font-family: 'Regular';
+}
+
+.propImageDiv{
+    margin: 0 8%;
+}
+
+.propImageDiv img{
+    height: 70%;
+}
+
+.propImageDiv p {
+    font-weight: 600;
+    font-size: 21px;
+    margin-left: 40px;
+    margin-bottom: 90px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Regular';
+}
