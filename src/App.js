@@ -9,7 +9,7 @@ import Properties from './components/properties/Properties';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       <Hero/>
       <AirPodsSize/>
       <H2Chip/>
