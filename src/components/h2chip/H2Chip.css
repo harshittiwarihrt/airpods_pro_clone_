@@ -1,0 +1,49 @@
+.h2black{
+    background: black;
+}
+
+.h2chippar{
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    background: black;
+    border: 1px solid gray;
+    width: 101%;
+}
+
+
+.h2chipVideo{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 80%;    
+}
+
+.h2actualVideo{
+    height: 500px !important;
+    margin-left: 15%;
+    padding-right: 150px !important;
+}
+
+.videopar::after {
+    background-color: #efefef; 
+    content: '';
+    display: block;
+    margin: 0 auto;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 50%;
+    border-right: 1px solid red;
+}
+
+.h2text{ 
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Regular';
+    width: 80%;
+    font-size: 28px;
+    margin-left: 20% ;
+    line-height: 32px;
+    font-weight: 600;
+
+}

@@ -13,7 +13,7 @@ const AirPodsSize = () => {
     
 const testAnimate={
     offscreen:{
-      x:200,
+      x:30,
       opacity:0
     },
     onscreen:{

@@ -54,7 +54,7 @@ export default Hero
 
     // useEffect(()=>{
     //     if(count<147){
-    //         setTimeout(() => {
+    //         setTimeout(() =>0
     //             setCount(count + 1)
     //         }, 50);
     //     }
